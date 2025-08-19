@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@layer components{
+  canvas{
+    @apply relative w-[75%] h-[50%] m-auto p-[0] bg-transparent text-white text-2xl
+  }
+  .elements{
+    @apply relative w-[100%] h-[10em] max-h-[10em] min-h-[10em] m-auto mt-0 mb-[3%] p-[0] bg-slate-600
+    flex flex-col align-middle justify-center text-center
+  }
+  input{
+    @apply relative w-[100%] h-[30%] m-auto p-[9] bg-transparent
+    underline underline-offset-4
+    flex flex-row align-middle justify-start text-start text-xl text-white
+  }
+  .submit{
+    @apply text-center cursor-pointer
+  }
+  .text{
+    @apply text-xl text-white flex-row flex align-middle justify-start text-start
+  }
+}
