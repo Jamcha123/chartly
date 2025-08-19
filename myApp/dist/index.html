@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chartly</title>
+    <script src="https://cdn.jsdelivr.net/npm/canvas2svg@latest/canvas2svg.js"></script>
+    <script src="https://unpkg.com/canvas2svg"></script>
+    <script type="module" crossorigin src="/assets/index-TXKG1JYa.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-e46IzRjW.css">
+  </head>
+  <body class="bg-slate-800 overflow-hidden ">
+    <div class="fixed w-[100%] h-[100%] m-auto p-[0] bg-transparent flex flex-row align-center ">
+      <div class="relative w-[25%] lg:w-[15%] h-[100%] m-auto p-[0] bg-slate-800 flex flex-col align-middle ">
+        <div class="relative w-[100%] h-[10%] m-auto mt-0 mb-0 p-[0] bg-slate-900 flex flex-col align-middle justify-center text-center ">
+          <h1 class="text-2xl text-white">Chart Types</h1>
+          <p class="text-xl text-white">Choose Chart first</p>
+        </div>
+        <div value="bar" id="bar" class="relative w-[100%] h-[10%] m-auto mt-0 mb-0 p-[0] bg-slate-700 hover:bg-slate-600 cursor-pointer active:scale-[1.1] duration-100 transition-all flex flex-row align-middle justify-center text-center">
+          <div class="relative w-[fit-content] h-[100%] m-auto ml-0 mr-[4%] p-[0] bg-transparent flex flex-col align-middle justify-center text-center ">
+            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23ffff'%3e%3cpath%20d='M640-160v-280h160v280H640Zm-240%200v-640h160v640H400Zm-240%200v-440h160v440H160Z'/%3e%3c/svg%3e" style="scale: 1;" alt="">
+          </div>
+          <div class="relative w-[fit-content] h-[100%] m-auto ml-0 mr-0 p-[0] bg-transparent flex flex-col align-middle justify-center text-center">
+            <h1 class="text-2xl text-white underline underline-offset-4">Bar</h1>
+          </div>
+        </div>
+        <div value="pie" id="pie" class="relative w-[100%] h-[10%] m-auto mt-0 mb-0 p-[0] bg-slate-700 hover:bg-slate-600 cursor-pointer active:scale-[1.1] duration-100 transition-all flex flex-row align-middle justify-center text-center">
+          <div class="relative w-[fit-content] h-[100%] m-auto ml-0 mr-[4%] p-[0] bg-transparent flex flex-col align-middle justify-center text-center ">
+            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23ffff'%3e%3cpath%20d='M520-520h278q-15-110-91.5-186.5T520-798v278Zm-80%20358v-636q-121%2015-200.5%20105.5T160-480q0%20122%2079.5%20212.5T440-162Zm80%200q110-14%20187-91t91-187H520v278Zm-40-318Zm0%20400q-83%200-156-31.5T197-197q-54-54-85.5-127T80-480q0-83%2031.5-156T197-763q54-54%20127-85.5T480-880q83%200%20155.5%2031.5t127%2086q54.5%2054.5%2086%20127T880-480q0%2082-31.5%20155T763-197.5q-54%2054.5-127%2086T480-80Z'/%3e%3c/svg%3e" style="scale: 1;" alt="">
+          </div>
+          <div class="relative w-[fit-content] h-[100%] m-auto ml-0 mr-0 p-[0] bg-transparent flex flex-col align-middle justify-center text-center">
+            <h1 class="text-2xl text-white underline underline-offset-4">Pie</h1>
+          </div>
+        </div>
+        <div value="polarArea" id="polarArea" class="relative w-[100%] h-[10%] m-auto mt-0 mb-0 p-[0] bg-slate-700 hover:bg-slate-600 cursor-pointer active:scale-[1.1] duration-100 transition-all flex flex-row align-middle justify-center text-center">
+          <div class="relative w-[fit-content] h-[100%] m-auto ml-0 mr-[4%] p-[0] bg-transparent flex flex-col align-middle justify-center text-center ">
+            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23ffff'%3e%3cpath%20d='M520-520h278q-15-110-91.5-186.5T520-798v278Zm-80%20358v-636q-121%2015-200.5%20105.5T160-480q0%20122%2079.5%20212.5T440-162Zm80%200q110-14%20187-91t91-187H520v278Zm-40-318Zm0%20400q-83%200-156-31.5T197-197q-54-54-85.5-127T80-480q0-83%2031.5-156T197-763q54-54%20127-85.5T480-880q83%200%20155.5%2031.5t127%2086q54.5%2054.5%2086%20127T880-480q0%2082-31.5%20155T763-197.5q-54%2054.5-127%2086T480-80Z'/%3e%3c/svg%3e" style="scale: 1;" alt="">
+          </div>
+          <div class="relative w-[fit-content] h-[100%] m-auto ml-0 mr-0 p-[0] bg-transparent flex flex-col align-middle justify-center text-center">
+            <h1 class="text-2xl text-white underline underline-offset-4">polarArea</h1>
+          </div>
+        </div>
+      </div>
+      <div class="relative w-[50%] lg:w-[75%] h-[100%] m-auto p-[0] bg-slate-950 flex flex-col align-middle justify-center text-center ">
+        <div id="charts" class="relative w-[100%] h-[75%] m-auto p-[0] bg-transparent flex flex-col align-middle justify-center text-center" >
+        </div>
+        <div id="photo" class="relative w-[100%] h-[25%] m-auto p-[0] bg-transparent flex flex-col align-middle justify-center text-center ">
+          
+        </div>
+      </div>
+      <div class="relative w-[25%] lg:w-[15%] h-[100%] m-auto p-[0] bg-slate-800 flex flex-col align-middle ">
+        <div class="relative w-[100%] h-[10%] m-auto mt-0 mb-0 p-[0] bg-slate-900 flex flex-col align-middle justify-center text-center ">
+          <h1 class="text-2xl text-white">Chart Elements</h1>
+        </div>
+        <div class="relative w-[100%] h-[10%] m-auto mt-0 mb-0 p-[0] bg-slate-700 hover:bg-slate-600 duration-100 transition-all active:scale-[1.1] flex flex-col align-middle justify-center text-center ">
+          <button id="add" class="relative w-[10em] h-[3em] m-auto mt-0 mb-0 p-[0] hover:scale-[1.1] active:scale-[0.9] duration-300 transition-all underline underline-offset-2 bg-transparent rounded-2xl cursor-pointer flex flex-col align-middle justify-center text-center text-xl text-white ">
+            + Add Elements
+          </button>
+        </div>
+        <form action="" id="element_form" method="get" class="relative w-[100%] h-[78%] m-auto p-[0] flex flex-col align-middle overflow-y-auto overflow-x-hidden ">
+          <div id="form" class="relative w-[100%] h-[80%] m-auto p-[0] bg-transparent flex flex-col align-middle overflow-y-auto overflow-x-hidden ">
+
+          </div>
+          <div class="relative w-[100%] h-[20%] m-auto p-[0] bg-transparent flex flex-col align-middle justify-center text-center ">
+            <input type="submit" placeholder="submit" value="Add Elements" id="submit" class="relative w-[100%] h-[4em] m-auto p-[0] bg-slate-700 hover:scale-[1.1] active:scale-[0.9] transition-all duration-300 flex flex-row align-middle justify-center text-center text-xl text-white underline underline-offset-2 cursor-pointer ">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
